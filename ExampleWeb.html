@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicioso Bistro</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+
+    header {
+      background-color: #8b0000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .dish {
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Delicioso Bistro</h1>
+    <p>Where Taste Meets Tradition</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    Welcome to Delicioso Bistro
+  </div>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>At Delicioso Bistro, we bring you fresh ingredients, handcrafted meals, and a cozy dining experience. Our chefs blend tradition with creativity, offering you dishes that delight both the heart and the palate.</p>
+  </section>
+
+  <section id="menu" class="section">
+    <h2>Our Menu</h2>
+    <div class="menu">
+      <div class="dish">
+        <h3>Margherita Pizza</h3>
+        <p>Classic wood-fired pizza with fresh mozzarella, basil, and tomato sauce.</p>
+        <strong>$12</strong>
+      </div>
+      <div class="dish">
+        <h3>Pasta Alfredo</h3>
+        <p>Creamy Alfredo sauce with fettuccine pasta, topped with parmesan.</p>
+        <strong>$14</strong>
+      </div>
+      <div class="dish">
+        <h3>Grilled Salmon</h3>
+        <p>Fresh salmon grilled to perfection, served with seasonal veggies.</p>
+        <strong>$18</strong>
+      </div>
+      <div class="dish">
+        <h3>Tiramisu</h3>
+        <p>Traditional Italian dessert with espresso-soaked ladyfingers and mascarpone.</p>
+        <strong>$8</strong>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> 123 Flavor Street, Foodtown, USA</p>
+    <p><strong>Phone:</strong> (555) 123-4567</p>
+    <p><strong>Email:</strong> info@deliciosobistro.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Delicioso Bistro. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
